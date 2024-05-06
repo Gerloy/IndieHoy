@@ -5,8 +5,10 @@
 		height: 30vw;
 		display: flex;
 		margin-top: 0px;
+		margin-bottom: 0px;
 		margin-right: 0px;
 		margin-left: 0px;
+		padding-bottom:0px;
 	}
 
 	.logo-indie{
@@ -44,31 +46,37 @@
 	}
 
 	.seccion1{
-		background: url(../res/Seccion1.png) no-repeat;
+		background: url(../res/Seccion1-mob.png) no-repeat;
 		background-size: fit;
-		height: 90vh;
+		height: 125vw;
 		width: 100vw;
-			margin:0px;
+		margin-top:0px;
 	}
 	
 	.overlay1{
-		background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background: linear-gradient(to bottom, rgba(36,36,36,1), rgba(255,255,255,.0));
 		overflow: hidden;
-		height: 100%;
+		height: 72%;
 		width: 100%;
 	}
+
+	.cta-desk{
+		display: none;
+	}
 	
-	.cta{
+	.cta-mob{
+		overflow: hidden;
 		background: #FAFAFA;
 		border: 1px solid #121212;
 		box-shadow: -2vw 2vw #121212;
 		height: 20vw;
 		width: 60vw;
 		color: #121212;
-		margin:auto;
+		margin-top:0px;
+		margin-left: 20vw;
 	}
 	
-	.cta:hover{
+	.cta-mob:hover{
 		background: #DCDCDC;
 	}
 
@@ -97,14 +105,14 @@
 	h2{
 		text-align: left;
 		white-space: pre-line;
-		font-size: 7vw;
-		line-height: 7vw;
+		font-size: 6vw;
+		line-height: 6vw;
 		color: #FAFAFA;
 		-webkit-text-stroke: 0.2px #121212;
 		text-shadow: -1vw 1vw #121212;
-		margin-top: 2vw;
+		margin-top: 10vw;
 		margin-left: 5vw;
-		margin-right: 3vw;
+		margin-right: 7vw;
 		padding-left: 1vw;
 	}
 }

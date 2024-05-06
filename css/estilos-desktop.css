@@ -48,7 +48,7 @@
 	}
 
 	.seccion1{
-		background: url(../res/Seccion1.png) no-repeat;
+		background: url(../res/Seccion1-desk.png) no-repeat;
 		background-size: cover;
 		height: 40vw;
 		width: 100vw;
@@ -61,8 +61,16 @@
 		height: 100%;
 		width: 100%;
 	}
+
+	.overlay2{
+		display:none;
+	}
+
+	.cta-mob{
+		display: none;
+	}
 	
-	.cta{
+	.cta-desk{
 		border: 2px solid #121212;
 		background: #FAFAFA;
 		box-shadow: -1vh 1.5vh #121212;
@@ -72,7 +80,7 @@
 		margin-left: 13vw;
 	}
 	
-	.cta:hover{
+	.cta-desk:hover{
 		background: #DCDCDC;
 	}
 
