@@ -1,0 +1,112 @@
+@media screen and (min-width: 768px){
+	.barra-superior{
+		background-color: #16B9F8;
+		width: 100vw;
+		height: 7.5vw;
+		display: flex;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.logo-indie{
+		background: url(../res/LogoIndie.png) no-repeat;
+		background-size: contain;
+		width: 15vw;
+		height: 90%;
+		margin-top: 1%;
+		margin-left: 20%;
+		display: inline-block;
+	}
+	
+	.container-logos{
+		width: 20vw;
+		height: 40%;
+		display: flex;
+		margin-top: 3%;
+		margin-left: 1%;
+	}
+	
+	.logo-boton{
+		background-color: #0AA8E5;
+		border-radius: 50%;
+		height: 100%;
+		width: 15%;
+		margin-left: 5%;
+		display: flex;
+	}
+	
+	.logo-boton:hover{
+		background-color: #57D1FF;
+	}
+	
+	.logo-imagen{
+		height: 60%;
+		width: 60%;
+		margin: auto;
+		display: inline-block;
+	}
+
+	.seccion1{
+		background: url(../res/Seccion1.png) no-repeat;
+		background-size: cover;
+		height: 40vw;
+		width: 100vw;
+			margin:0px;
+	}
+	
+	.overlay1{
+		background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		overflow: hidden;
+		height: 100%;
+		width: 100%;
+	}
+	
+	.cta{
+		border: 2px solid #121212;
+		background: #FAFAFA;
+		box-shadow: -1vh 1.5vh #121212;
+		height: 5vw;
+		width: 20vw;
+		color: #222222;
+		margin-left: 13vw;
+	}
+	
+	.cta:hover{
+		background: #DCDCDC;
+	}
+
+
+	.jockey-one-bold.cta-text{
+		margin-left: 4.2vw;
+		margin-top: 1vw;
+		font-size:2vw;
+		margin-left: 4.5vw;
+		margin-top: 1vw;
+	}
+	
+	h1{
+		-webkit-text-stroke: 1px #121212;
+		white-space: pre-line;
+		font-size: 7vw;
+		line-height: 7vw;
+		color: #FAFAFA;
+		text-shadow: -0.5vw 0.5vw #121212;	
+		margin-top: 1vw;
+		margin-bottom:0px;
+		margin-left: 10vw;
+		padding-left: 3vw;
+		padding-bottom: 2vw;
+	}
+	
+	h2{
+		-webkit-text-stroke: 0.5px #121212;
+		white-space: pre-line;
+		font-size: 2.5vw;
+		color: #FAFAFA;
+		text-shadow: -0.3vw 0.3vw #121212;
+		margin-top: 1vw;
+		margin-left: 10vw;
+		padding-left: 2vw;
+	}
+}
