@@ -47,10 +47,36 @@
 
 	.seccion1{
 		background: url(../res/Seccion1-mob.png) no-repeat;
-		background-size: fit;
-		height: 125vw;
+		background-size: contain;
+		height: 127vw;
 		width: 100vw;
 		margin-top:0px;
+		padding-bottom: 0px;
+	}
+
+	.seccion2{
+		overflow: hidden;
+		background: #D9D9D9;
+		height: 75vh;
+		width: 100vw;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+
+	.p-sec2{
+
+		text-align: left;
+		white-space: pre-line;
+		font-size: 5.5vw;
+		line-height: 5.5vw;
+		color: #121212;
+		margin-left: 9vw;
+		margin-right: 9vw;
+		margin-top: 30%;
+	}
+
+	.p-color{
+		color: #F29B3D;
 	}
 	
 	.overlay1{
@@ -58,6 +84,7 @@
 		overflow: hidden;
 		height: 72%;
 		width: 100%;
+		padding-bottom: 0px;
 	}
 
 	.cta-desk{
@@ -115,4 +142,12 @@
 		margin-right: 7vw;
 		padding-left: 1vw;
 	}
+
+	/*p{
+		text-align: left;
+		white-space: pre-line;
+		font-size: 6vw;
+		line-height: 6vw;
+		color: #121212;
+	}*/
 }
