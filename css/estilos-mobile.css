@@ -46,7 +46,7 @@
 	}
 
 	.seccion1{
-		background: url(../res/Seccion1-mob.png) no-repeat;
+		background: linear-gradient(to bottom, #16B9F8 0%, #16B9F8 60%, #FFFFFF 100%);
 		background-size: contain;
 		height: 127vw;
 		width: 100vw;

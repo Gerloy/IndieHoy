@@ -49,7 +49,7 @@
 	}
 
 	.seccion1{
-		background: url(../res/Seccion1-desk.png) no-repeat;
+		background: linear-gradient(to bottom, #16B9F8 0%, #16B9F8 60%, #FFFFFF 100%);
 		background-size: cover;
 		height: 50vw;
 		width: 100vw;
