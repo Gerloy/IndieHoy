@@ -92,12 +92,11 @@
 	.seccion3{
 		overflow: hidden;
 		background: #FFEE00;
-		height: 60vh;
+		height: 30vw;
 		width: 100vw;
-		margin-top: 0px;
-		padding-top: 0px;
-		padding-left: 5%;
-		padding-right: 5%;
+		margin: 0px;
+		padding: 0px;
+		padding-top: 3%;
 		display: flex;
 	}
 
@@ -186,13 +185,26 @@
 
 	.bullet-cont{
 		height: 100%;
-		width: 30%;
+		width: 33.3%;
+		margin: 0px;
 		padding: 2.5%;
 	}
 
 	.bullet-ico{
 		background-size: contain;
-		height: 5vw;
-		width: 5vw;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		height: 15vw;
+		width: 15vw;
+		margin-left: 22.5%;
+	}
+
+	.kanit-medium.bullet-texto{
+		margin: 10%;
+		margin-top: 0px;
+		font-size: 1.5vw;
+		line-height: 1.5vw;
+		text-align: center;
+		color: #121212;
 	}
 }
