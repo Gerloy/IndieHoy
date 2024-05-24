@@ -2,6 +2,12 @@
 	box-sizing: content-box;
 }
 
+.jockey-one-light{
+	font-family: "Jockey One", sans serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
 .jockey-one-regular{
 	font-family: "Jockey One", sans-serif;
 	font-weight: 400;
