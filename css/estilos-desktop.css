@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px){
 
 	.barra-superior{
-		background-color: #16B9F8;
+		background-color: #14BCFB;
 		width: 100vw;
 		height: 7.5vw;
 		display: flex;
@@ -22,9 +22,9 @@
 	
 	.container-logos{
 		width: 20vw;
-		height: 40%;
+		height: 50%;
 		display: flex;
-		margin-top: 3%;
+		margin-top: 2%;
 		margin-left: 1%;
 	}
 	
@@ -32,7 +32,7 @@
 		background-color: #0AA8E5;
 		border-radius: 50%;
 		height: 100%;
-		width: 15%;
+		width: 18.75%;
 		margin-left: 5%;
 		display: flex;
 	}
@@ -49,25 +49,38 @@
 	}
 
 	.seccion1{
-		background: linear-gradient(to bottom, #16B9F8 0%, #16B9F8 40%, #FFFFFF 100%);
+		background: linear-gradient(to bottom, #14BCFB 0%, #14B9F8 40%, #FFFFFF 100%);
 		height: 40vw;
 		width: 100vw;
 		margin:0px;
 		padding-bottom: 0px;
 	}
 
-	.separador{
+	.texto-sec1{
+		width:50%;
+	}
+
+	.separador-barra{
+		background: #FAFAFA;
+		height: 1vw;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.separador-secciones{
 		background: #16B9F8;
-		height: 2vw;
+		background: linear-gradient(to right, #14BCFB 0%, #14BCFB 1.43%, #57D1FF 1.431%, #57D1FF 4.29%, #14BCF8 4.291%, #14BCF8 5.72%, #57D1FF 5.721%, #57D1FF 8.58%, #14BCF8 8.581%, #14BCF8 10.01%, #57D1FF 10.011%, #57D1FF 12.87%, #14BCFB 12.871%, #14BCFB 14.3%, #57D1FF 14.31%, #57D1FF 17.16%, #14BCFB 17.161%, #14BCFB 18.59%, #57D1FF 14.591%, #57D1FF 21.45%, #14BCFB 21.451%, #14BCFB 22.88%, #57D1FF 22.881%, #57D1FF 25.74%, #14BCFB 25.741%, #14BCFB 27.17%, #57D1FF 27.171%, #57D1FF 30.03%, #14BCFB 30.031%, #14BCFB 31.46%, #57D1FF 31.461%, #57D1FF 34.32%, #14BCFB 34.321%, #14BCFB 35.75%, #57D1FF 35.751%, #57D1FF 38.61%, #14BCFB 38.611%, #14BCFB 40.04%, #57D1FF 40.041%, #57D1FF 42.9%, #14BCFB 42.901%, #14BCFB 44.33%, #57D1FF 44.331%, #57D1FF 47.19%, #14BCFB 47.191%, #14BCFB 48.62%, #57D1FF 48.621%, #57D1FF 51.48%, #14BCFB 51.481%, #14BCFB 52.91%, #57D1FF 52.911%, #57D1FF 55.77%, #14BCFB 55.771%, #14BCFB 57.2%, #57D1FF 57.201%, #57D1FF 60.06%, #14BCFB 60.061%, #14BCFB 61.49%, #57D1FF 61.491%, #57D1FF 64.35%, #14BCFB 64.351%, #14BCFB 65.78%, #57D1FF 65.781%, #57D1FF 68.64%, #14BCFB 68.641%, #14BCFB 70.07%, #57D1FF 70.071%, #57D1FF 72.93%, #14BCFB 72.931%, #14BCFB 74.36%, #57D1FF 74.361%, #57D1FF 77.22%, #14BCFB 77.221%, #14BCFB 78.65%, #57D1FF 78.651%, #57D1FF 81.51%, #14BCFB 81.511%, #14BCFB 82.94%, #57D1FF 82.941%, #57D1FF 85.8%, #14BCFB 85.801%, #14BCFB 87.23%, #57D1FF 87.231%, #57D1FF 90.09%, #14BCFB 90.091%, #14BCFB 91.52%, #57D1FF 91.521%, #57D1FF 94.38%, #14BCFB 94.381%, #14BCFB 95.81%, #57D1FF 95.811%, #57D1FF 98.67%, #14BCFB 98.671%);
+		height: 1.5vw;
 		padding: 0px;
 	}
 
 	.seccion2{
 		overflow: hidden;
-		background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 30%, #58D1FF 100%);
+		/*background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 30%, #58D1FF 100%);*/
+		background: #14BCF8;
 		background-position: 0px, 0px;
 		background-size: 100%;
-		height: 29vw;
+		height: 25vw;
 		width: 100vw;
 		margin-top: 0px;
 		padding-top: 0px;
@@ -75,49 +88,138 @@
 	}
 
 	.foto-sec2{
-		background: url(../res/Seccion1-desk.png);
+		background: url(../res/Seccion1-desk.png) no-repeat;
+		box-shadow: none;
 		width: 50%;
 		height: 100%;
 		margin: 0px;
 		padding: 0px;
 	}
+
+	.estrella1-sec2{
+		display: flex;
+		width: 15vw;
+		height: 15vw;
+		position: relative;
+		margin-top: -38.75%;
+		margin-left: 61.75%;
+		z-index: -3;
+	}
+
+	.estrella2-sec2{
+		display: flex;
+		width: 15vw;
+		height: 15vw;
+		position: relative;
+		margin-top: -10%;
+		margin-left: 7.5%;
+		z-index: -3;
+	}	
 
 	.tex-sec2{
 		width: 50%;
 		height: 100%;
 		margin: 0px;
+		margin-left: 50vw; 
 		padding: 0px;
+		z-index: 10;
+		position: absolute;
 	}
 
 	.seccion3{
 		overflow: hidden;
-		background: #FFEE00;
+		background: #E4D715;
 		height: 30vw;
 		width: 100vw;
 		margin: 0px;
 		padding: 0px;
 		padding-top: 3%;
+		padding-left: 5%;
+		padding-right: 5%;
 		display: flex;
 	}
 
-	.p-sec2{
 
-		text-align: left;
-		white-space: pre-line;
-		font-size: 2.25vw;
-		line-height: 2.25vw;
+	.seccion4{
+		overflow: hidden;
+		background: #FAFAFA;
+		height: 45vw;
+		width: 100vw;
+		margin: 0px;
+		padding: 0px;
+		padding-top: 1%;
+	}
+
+	.seccion-form{
+		overflow: hidden;
+		background: #57D1FF;
+		width: 100%;
+		height: 50vw;
+	}
+
+	.seccion-footer{
+		height: 30vw;
+		background: #111111;
+	}
+
+	.relleno{
+		background:#111111;
+		margin-top: 0px;
+		height:0.5%;
+	}
+
+	.logo-footer{
+		width: 20%;
+		height: auto;
+		margin-top: 4%;
+		margin-left: 37.75%;
+	}
+
+	.cont-titulo-sec4{
+		width: 100%;
+		height: 20%;
+		display: flex;
+		margin-top: 0px;
+	}
+
+	.titulo-sec4{
+		font-size: 3vw;
 		color: #121212;
-		margin-left: 6vw;
+		margin-left: 7vw;
+	}
+
+	.tex2-sec4{
+		margin-top: 3.5vw;
+		font-size: 1.5vw;
+		color: #121212;
+		margin-left: 55%;
+	}
+
+	.jockey-one-light.p-sec2{
+		width: 60%;
+		text-align: center;
+		white-space: pre-line;
+		font-size: 1.75vw;
+		line-height: 1.75vw;
+		color: #121212;
+		margin-left: 20%;
 		margin-right: 5vw;
-		margin-top: 14%;
+		margin-top: 5%;
 	}
 
 	.p-color{
 		color: #9747FF;
 	}
 
-	.acerca-p{
-		display:none;
+	.jockey-one-light.acerca-p{
+		width: 50%;
+		text-align: center;
+		color: #121212;
+		font-size: 2vw;
+		line-height: 2vw;
+		margin-top: 12.5%;
+		margin-left: 25%;
+		z-index: 10;
 	}
 		
 	.overlay1{
@@ -137,14 +239,14 @@
 	}
 	
 	.cta-desk{
-		margin-top: 6vw;
+		margin-top: 4vw;
 		border: 2px solid #121212;
 		background: #FAFAFA;
 		box-shadow: -1vh 1.5vh #121212;
 		height: 5vw;
 		width: 20vw;
 		color: #222222;
-		margin-left: 5.5vw;
+		margin-left: 7vw;
 	}
 	
 	.cta-desk:hover{
@@ -164,47 +266,225 @@
 		font-size: 6vw;
 		line-height: 6vw;
 		color: #FAFAFA;
-		text-shadow: -0.5vw 0.35vw #121212;	
+		text-shadow: -0.25vw 0.25vw #121212;	
 		margin-top: 2vw;
 		margin-bottom:0px;
-		margin-left: 2.5vw;
+		margin-left: 5vw;
 		padding-left: 2vw;
 		padding-bottom: 0px;
 	}
 	
 	h2{
-		-webkit-text-stroke: 0.5px #FFFFFF;
+		-webkit-text-stroke: 0.5px #FAFAFA;
 		white-space: pre-line;
 		font-size: 1.8vw;
-		color: #111111;
-		text-shadow: -0.2vw 0.2vw #FFFFFF;
+		color: #121212;
+		text-shadow: -0.1vw 0.1vw #FAFAFA;
 		margin-top: 1vw;
-		margin-left: 2.5vw;
+		margin-left: 5vw;
 		padding-left: 2vw;
 	}
 
 	.bullet-cont{
 		height: 100%;
-		width: 33.3%;
+		width: 22%;
 		margin: 0px;
 		padding: 2.5%;
+		padding-left: 4%;
+		padding-right: 4%;
 	}
 
 	.bullet-ico{
 		background-size: contain;
 		margin-bottom: 0px;
 		padding-bottom: 0px;
-		height: 15vw;
-		width: 15vw;
-		margin-left: 22.5%;
+		height: 10vw;
+		width: 10vw;
+		margin-left: 27%;
+	}
+
+	.jockey-one-regular.bullet-titulo{
+		margin-top: 0px;
+		font-size: 2vw;
+		text-align: center;
+		color: #121212;
+		margin-bottom: 0px;
 	}
 
 	.kanit-medium.bullet-texto{
-		margin: 10%;
-		margin-top: 0px;
+		margin-top: 5%;
 		font-size: 1.5vw;
 		line-height: 1.5vw;
 		text-align: center;
 		color: #121212;
+	}
+
+	.container-cards{
+		margin-top: 0px;
+		width: 98%;
+		margin-left: 0px;
+		margin-right: 0px;
+		display: flex;
+		padding-right: 1.5%;
+		padding-left: 1.5%;
+	}
+
+	.card{
+		background: #FFFFFF;
+		border: 2px solid #121212;
+		width: 17vw;
+		height: 24vw;
+		margin-top: 2%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		box-shadow: -1vh 1.5vh #121212;
+		padding: 1.5%;
+		transition: transform 300ms;
+	}
+
+
+	.card:hover{
+		transform: scale(1.2);
+	}
+	
+	.kanit-semibold.titulo-card{
+		margin-top: 0px;
+		font-size: 1.75vw;	
+		color: #121212;
+		margin-bottom: 0px;
+	}
+
+	.img-card{
+		margin-top: 2%;
+		width:100%;
+		height:auto;
+	}
+
+	.cont-artista-card{
+		display: flex;
+		width: 96%;
+		height: 10%;
+		margin:0px;
+	}
+
+	.kanit-medium.artista-card{
+		width: 100%;
+		margin-top: 2%;
+		padding: 0px;
+		font-size: 1.75vw;
+		color: #16B9F8;
+	}
+
+	.cosito-card{
+		margin-top: 4%;
+		height: 80%;
+		width: auto;
+	}
+
+	.kanit-medium.lugar-card{
+		margin-top: 2.5%;
+		font-size: 1.5vw;
+		color: #121212;
+	}
+
+	.container-logos2{
+		width: 21vw;
+		height: 13%;
+		display: flex;
+		margin-top: 2%;
+		margin-left: 39%;
+	}
+	
+	.logo-boton2{
+		background-color: #0AA8E5;
+		border-radius: 50%;
+		height: 100%;
+		width: 18.75%;
+		margin-left: 5%;
+		display: flex;
+	}
+	
+	.logo-boton2:hover{
+		background-color: #57D1FF;
+	}
+	
+	.logo-imagen2{
+		height: 60%;
+		width: 60%;
+		margin: auto;
+		display: inline-block;
+	}
+
+	.links-cont-footer{
+		width: 60%;
+		margin-left: 20%;
+		display: flex;
+	}
+
+	.jockey-one-semibold.link-foot{
+		color: #FFFFFF;
+		font-size: 2vw;
+		margin-left: 3vw;
+		margin-right: 1vw;
+	}
+
+	.kanit-medium.derechos{
+		color: #FFFFFF;
+		font-size: 1vw;
+		text-align: center;
+	}
+
+	.bebas-neue-regular.titulo-form{
+		position: absolute;
+		font-size: 4vw;
+		color: #FAFAFA;
+		-webkit-text-stroke: 1px #121212;
+		text-shadow: -0.25vw 0.25vw #121212;	
+		margin-left: 5vw;
+	}
+	
+	.estrella2-sec2{
+		display: flex;
+		width: 30vw;
+		height: 30vw;
+		position: relative;
+		margin-top: -10%;
+		margin-left: 80%;
+		z-index: -3;
+	}
+
+	form{
+		margin-top: 15%;
+		margin-left: 5%;
+	}
+
+	input[type=text]{
+		width: 30%;
+		height: 10%;
+		font-size: 2vw;
+		border-radius: 0px;	
+	}
+
+	input[type=email]{
+		margin-top: 2%;
+		width: 30%;
+		height: 10%;
+		font-size: 2vw;
+		border-radius: 0px;	
+	}
+
+
+	.select{
+		margin-top: 2%;
+		width: 30%;
+		height: 10%;
+		font-size: 2vw;
+		border-radius: 0px;	
+	}
+
+	.jockey-one-semibold.mail-icono-form{
+		background: url(../res/mail-icon.png) no-repeat;
+		background-size:10%;
+		margin-left: 2%;
 	}
 }
