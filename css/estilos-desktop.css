@@ -459,6 +459,10 @@
 	}
 
 	input[type=text]{
+		background: url(../res/nombre-icon.png) no-repeat;
+		background-color: #FFFFFF;
+		background-size: 7%, 100%;
+		background-position: 3%;
 		width: 30%;
 		height: 10%;
 		font-size: 2vw;
@@ -466,6 +470,10 @@
 	}
 
 	input[type=email]{
+		background: url(../res/mail-icon.png) no-repeat;
+		background-color: #FFFFFF;
+		background-size: 11%, 98%;
+		background-position: 2%;
 		margin-top: 2%;
 		width: 30%;
 		height: 10%;
@@ -492,6 +500,11 @@
 		margin-top: 1%;
 		margin-bottom: 1%;
 		margin-left: 2%;
+	}
+
+	.icono-form.nombre{
+		background-image: url(../res/nombre-icon.png) no-repeat;
+		background-size: contain;
 	}
 
 	.jockey-one-semibold.mail-icono-form{
