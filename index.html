@@ -23,7 +23,6 @@
 		<link rel="stylesheet" href="css/estilos-generales.css" media="screen">
 		<link rel="stylesheet" href="css/estilos-mobile.css" media="screen">
 		<link rel="stylesheet" href="css/estilos-desktop.css" media="screen">
-		<script src="js/functions.js"></script>
 	</head>
 	<body>
 		<div class="barra-superior">
@@ -133,8 +132,9 @@
 					<input type="email" name="mail" id="mail" placeholder="Correo Electronico" required="true" class="jockey-one-semibold texto-input">
 					<br>
 					<br>
-					<label for="disciplina" class="jockey-one-semibold select">Elegir disciplina</label>
+					<!--<label for="disciplina" class="jockey-one-semibold select">Elegir disciplina</label>-->
 					<select name="disciplina" id="disciplina" required="true" class="jockey-one-semibold">
+						<option value="default" selected>Elegir disciplina</option>
 						<option value="musico">Presentacion en vivo</option>
 						<option value="marketing">Marketing</option>
 						<option value="foto">Fotografia</option>
@@ -170,4 +170,5 @@
 			<p class="kanit-medium derechos">© 2024 Indie Hoy. Todos los derechos reservados.</p>
 		</div>
 	</body>
+	<script src="js/functions.js"></script>
 </html>
