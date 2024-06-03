@@ -186,13 +186,15 @@
 		font-size: 3vw;
 		color: #121212;
 		margin-left: 7vw;
+		width: 50%;
 	}
 
 	.tex2-sec4{
 		margin-top: 3.5vw;
 		font-size: 1.5vw;
+		width: 10%;
 		color: #121212;
-		margin-left: 55%;
+		margin-left: 40%;
 	}
 
 	.jockey-one-light.p-sec2{
@@ -463,6 +465,11 @@
 		background-color: #FFFFFF;
 		background-size: 7%, 100%;
 		background-position: 3%;
+		outline: none;
+		outline-color: transparent;
+		border: none;
+		border-color: transparent;
+		border: .5px solid #121212;
 		width: 35%;
 		height: 4vw;
 		font-size: 2vw;
@@ -474,6 +481,11 @@
 		background-color: #FFFFFF;
 		background-size: 11%, 98%;
 		background-position: 2%;
+		outline: none;
+		outline-color: transparent;
+		border: none;
+		border-color: transparent;
+		border: .5px solid #121212;
 		margin-top: 2%;
 		width: 35%;
 		height: 4vw;
@@ -482,11 +494,18 @@
 	}
 
 
-	.select{
+	.jockey-one-semibold.select{
+		background-color: #FFFFFF;
 		margin-top: 2%;
-		width: 30%;
-		height: 10%;
+		outline: none;
+		outline-color: transparent;
+		border: none;
+		border-color: transparent;
+		border: 5px solid #121212;
+		width: 35%;
+		height: 4vw;
 		font-size: 2vw;
+		text-indent: 2%;
 		border-radius: 0px;	
 	}
 
@@ -511,5 +530,24 @@
 		background: url(../res/mail-icon.png) no-repeat;
 		background-size:10%;
 		margin-left: 2%;
+	}
+
+	.boton-final{
+		background-color: #FFFFFF;
+		width: 10%;
+		height: 4vw;
+		border: 2px solid #121212;
+		background: #FAFAFA;
+		box-shadow: -1vh 1.5vh #121212;
+	}
+
+	.jockey-one-semibold.texto-boton-final{
+		/*background-color: #FFFFFF;*/
+		color: #121212;
+		width: 100%;
+		height: 98%;
+		font-size: 2vw;
+		text-align: center;
+		margin-top: 1%;
 	}
 }
