@@ -23,7 +23,6 @@ input_nombre.addEventListener("focusout", function(){
 	}
 })
 
-
 //Cosas del mail ----------------------------------------------------------------------------------------------------------------------
 input_mail.value = "Correo Electronico";
 input_mail.addEventListener("click", function() {
@@ -37,6 +36,7 @@ input_mail.addEventListener("focusout", function(){
 		this.value = "Correo Electronico";
 	}
 })
+
 //Cosas del select --------------------------------------------------------------------------------------------------------------------
 input_disciplina.value = "default";
 //Borra la opcion "Elegir disciplina del select"
