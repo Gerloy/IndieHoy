@@ -168,21 +168,21 @@
 
 	.estrella1-sec2{
 		display: flex;
-		width: 15vw;
-		height: 15vw;
+		width: 80vw;
+		height: 80vw;
 		position: relative;
-		margin-top: -38.75%;
-		margin-left: 61.75%;
+		margin-top: -70%;
+		margin-left: 55%;
 		z-index: -3;
 	}
 
 	.estrella2-sec2{
 		display: flex;
-		width: 15vw;
-		height: 15vw;
+		width: 55vw;
+		height: 55vw;
 		position: relative;
-		margin-top: -10%;
-		margin-left: 7.8%;
+		margin-top: -35%;
+		margin-left: -18%;
 		z-index: -3;
 	}	
 
