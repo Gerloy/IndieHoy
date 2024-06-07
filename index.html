@@ -45,8 +45,8 @@
 					DESDE ADENTRO!</h1>
 			<h2 class="jockey-one-regular texto-sec1"> ¿Sos un apasionado de los festivales de música? ¿Soñás con trabajar detrás de escena, dándole vida a esos eventos increíbles?
 			Recibií incformación exclusiva y sumate a nuestra comunidad.</h2>
-			<div class="cta-desk"><p class="bebas-neue-regular cta-text">¡ENTERATE MÁS!</p></div>
-			<div class="cta-mob"><p class="jockey-one-bold cta-text">¡ENTERATE MÁS!</p></div>
+			<div class="cta-desk" onClick="document.getElementById('form').scrollIntoView({ behavior: 'smooth'});"><p class="bebas-neue-regular cta-text">¡ENTERATE MÁS!</p></div>
+			<div class="cta-mob" onClick="document.getElementById('form').scrollIntoView({ behavior: 'smooth'});"><p class="jockey-one-bold cta-text">¡ENTERATE MÁS!</p></div>
 		</div>
 		<div class="separador-secciones"></div>
 		<div class="seccion2">
@@ -121,10 +121,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="seccion-form">
+		<div class="seccion-form" id="form">
 			<p class="bebas-neue-regular titulo-form">¡SUMATE A NUESTRA COMUNIDAD Y CUMPLÍ TUS SUEÑOS!</p>
 			<div>
-				<form>
+				<form id="formulario">
 				<!--<span class="icono-form nombre"></span>-->	
 				<input type="text" name="nombre" id="nombre" required="true" class="jockey-one-semibold texto-input">
 				<br>
@@ -143,11 +143,19 @@
 				</select>
 				<br>
 				<br>
-				<input type="submit" class="bebas-neue-regular boton-final" value="Unirme">
+				<!--<input type="button" class="bebas-neue-regular boton-final" id="botonFin">-->
+				<input type="submit" id="botonFin" class="bebas-neue-regular boton-final" value="Unirme">
 				</form>
 			</div>
 			<img src="./res/amarilla.png" class="estrella-form"/>		
 		</div>
+		
+		<div class="mensaje-final" id="final">
+			<p class="bebas-neue-regular msg-fin-grande"> ¡BIENVENIDX A NUESTRA COMUNIDAD <span id="nom_msg"></span>!</p>
+			<p class="jockey-one-regular msg-fin-chico">Pronto nos contactaremos al mail <span id="mail_msg"></span> para verificar tus datos y darle comienzo a esta aventura ;)</p>
+			<div class="cerrar-fin" id="cruz_fin"></div>
+		</div>
+
 		<div class="seccion-footer">
 			<div class="relleno"></div>
 			<img src="./res/footer-logo.png" class="logo-footer"/>

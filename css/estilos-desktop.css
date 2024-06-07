@@ -112,7 +112,7 @@
 		height: 15vw;
 		position: relative;
 		margin-top: -10%;
-		margin-left: 7.5%;
+		margin-left: 7.8%;
 		z-index: -3;
 	}	
 
@@ -154,7 +154,7 @@
 		overflow: hidden;
 		background: #14BCFB;
 		width: 100%;
-		height: 50vw;
+		height: 45vw;
 	}
 
 	.seccion-footer{
@@ -174,7 +174,6 @@
 		margin-top: 4%;
 		margin-left: 37.75%;
 	}
-
 	.cont-titulo-sec4{
 		width: 100%;
 		height: 20%;
@@ -445,14 +444,14 @@
 		margin-left: 5vw;
 	}
 	
-	.estrella2-sec2{
+	.estrella-form{
 		display: flex;
-		width: 30vw;
-		height: 30vw;
+		width: 40vw;
+		height: 40vw;
 		position: relative;
-		margin-top: -10%;
-		margin-left: 80%;
-		z-index: -3;
+		margin-top: -27.5%;
+		margin-left: 72.5%;
+		z-index: 3;
 	}
 
 	form{
@@ -531,15 +530,6 @@
 		border-radius: 0px;	
 	}
 
-	select::-ms-expand{
-		display: none;
-	}
-
-	select option{
-		-webkit-appearance: none;
-		-moz-appearance: none;
-	}
-
 	.jockey-one-semibold.texto-input{
 		text-indent: 15%;
 	}
@@ -574,6 +564,7 @@
 		font-size: 2vw;
 		text-align: center;
 		margin-left: 10%;
+		margin-top: 1%;
 	}
 
 	.bebas-neue-regular.boton-final:hover{
@@ -581,12 +572,58 @@
 	}
 
 	.jockey-one-semibold.texto-boton-final{
-		/*background-color: #FFFFFF;*/
 		color: #121212;
 		width: 100%;
 		height: 98%;
 		font-size: 2vw;
 		text-align: center;
 		margin-top: 1%;
+	}
+
+	.mensaje-final{
+		display: none;
+		background: url(../res/Fondo-msg.png) no-repeat;
+		background-position-y: 105%;
+		background-size: 100%, 100%;
+		background-color: #FFFFFF;
+		border: 1px solid #111111;
+		width: 70%;
+		height: 28vw;
+		position: fixed;
+		left: 15%;
+		top: 25%;
+	}
+
+	.bebas-neue-regular.msg-fin-grande{
+		margin-top: 13%;
+		font-size: 3.25vw;
+		color: #FFFFFF;
+		-webkit-text-stroke: 0.5px #111111;
+		text-shadow: -0.14vw 0.14vw #111111;
+		width: 100%;
+		text-align: center;
+		margin-bottom:0px;
+	}
+
+	.jockey-one-regular.msg-fin-chico{
+		margin-top: 1%;
+		font-weight: 450px;
+		font-size: 1.63vw;
+		width: 48vw;
+		height: 100%;
+		color: #FFFFFF;
+		-webkit-text-stroke: 0.6px #121212;
+		text-align: left;
+		margin-left: 17.25%;
+	}
+
+	.cerrar-fin{
+		background: url(../res/cerrar-fin.png) no-repeat;
+		background-size: cover;
+		height: 9%;
+		width: 4%;
+		position: fixed;
+		left: 80%;
+		top:26%;
 	}
 }
