@@ -90,8 +90,48 @@ form.addEventListener('submit', function(e){
 
 //Cerrar submit -----------------------------------------------------------------------------------------------------------------------
 var cruz = document.getElementById('cruz_fin');
-cruz.addEventListener('click', function(){
+
+cruz.addEventListener('click', () => {
 	resetearForm();
 	body.classList.remove('bloqueado');
-	mensaje_final.style.display = 'none';
+	msg.style.display = 'none';
+});
+
+//Cosas del media query ---------------------------------------------------------------------------------------------------------------
+var mobile = false;
+var query = window.matchMedia('(max-width: 768px)');
+
+query.addEventListener('change', (e) => mobile = e.matches);
+
+//Carrousel de cards ------------------------------------------------------------------------------------------------------------------
+var container_cards = document.getElementById('container-cards');
+var container_interno = document.getElementById('container-interno');
+
+var presionado = false;
+var inicioX;
+var x;
+
+container_cards.addEventListener('mousedown', (e) => {
+	console.log('clickeado');
+	pressed = true;
+	inicioX = e.offsetX - container_interno.offsetLeft;
+
 })
+
+container_cards.addEventListener('mouseup', () => {
+	pressed = false;
+})
+
+container_cards.addEventListener('mousemove', (e) => {
+	if (!presionado) return;
+	
+	e.preventDefault();
+	x = e.offsetX;
+	container_interno.style.left = `${x - inicioX}px`;
+})
+
+function moverCarrousel(cont){
+}
+container_cards.addEventListener('mousedown', () => {
+	
+});

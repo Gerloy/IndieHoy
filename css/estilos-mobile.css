@@ -299,26 +299,43 @@
 	}
 
 	.container-cards{
-		margin-top: 0px;
-		width: 98%;
+		margin-top: -5%;
+		width: 100%;
+		height: 80vw;
 		margin-left: 0px;
 		margin-right: 0px;
-		display: flex;
 		padding-right: 1.5%;
 		padding-left: 1.5%;
+		position: relative;
+		overflow: hidden;
 	}
+
+	.container-cards-int{
+		height: 100%;
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(4, 45vw);
+		grid-gap: 10%;
+		pointer-events: none;
+		left: 0;
+		position: absolute;
+		margin-left: 10%;
+	}
+
 
 	.card{
 		background: #FFFFFF;
-		border: 2px solid #121212;
-		width: 17vw;
-		height: 24vw;
-		margin-top: 2%;
-		margin-left: 2.5%;
-		margin-right: 2.5%;
-		box-shadow: -1vh 1.5vh #121212;
-		padding: 1.5%;
+		border: 1px solid #121212;
+		height: 65vw;
+		/*width: 40vw;
+		margin-left: 1.5%;
+		margin-right: 0%;*/
+		margin-top: 20%;
+		box-shadow: -0.5vh .5vh #121212;
+		padding: 5%;
+		padding-top: 0px;
 		transition: transform 300ms;
+		overflow: hidden;
 	}
 
 
@@ -327,14 +344,14 @@
 	}
 	
 	.kanit-semibold.titulo-card{
-		margin-top: 0px;
-		font-size: 1.75vw;	
+		margin-top: 7.5%;
+		font-size: 3.5vw;	
 		color: #121212;
 		margin-bottom: 0px;
 	}
 
 	.img-card{
-		margin-top: 2%;
+		margin-top: 7%;
 		width:100%;
 		height:auto;
 	}
@@ -342,7 +359,7 @@
 	.cont-artista-card{
 		display: flex;
 		width: 96%;
-		height: 10%;
+		height: 8%;
 		margin:0px;
 	}
 
@@ -350,19 +367,19 @@
 		width: 100%;
 		margin-top: 2%;
 		padding: 0px;
-		font-size: 1.75vw;
+		font-size: 4vw;
 		color: #16B9F8;
 	}
 
 	.cosito-card{
-		margin-top: 4%;
+		margin-top: 7%;
 		height: 80%;
 		width: auto;
 	}
 
 	.kanit-medium.lugar-card{
-		margin-top: 2.5%;
-		font-size: 1.5vw;
+		margin-top: 5%;
+		font-size: 3.5vw;
 		color: #121212;
 	}
 
