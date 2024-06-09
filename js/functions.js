@@ -109,29 +109,28 @@ var container_interno = document.getElementById('container-interno');
 
 var presionado = false;
 var inicioX;
-var x;
+var scrollIz;
 
-container_cards.addEventListener('mousedown', (e) => {
-	console.log('clickeado');
-	pressed = true;
-	inicioX = e.offsetX - container_interno.offsetLeft;
-
+container_interno.addEventListener('mousedown', (e) => {
+	presionado = true;
+	inicioX = e.pageX - container_interno.offsetLeft;
+	scrollIz = container_interno.scrollLeft;
+	container_cards.style.userSelect = 'none';
 })
 
-container_cards.addEventListener('mouseup', () => {
-	pressed = false;
+container_interno.addEventListener('mouseup', () => {
+	presionado = false;
 })
 
-container_cards.addEventListener('mousemove', (e) => {
+container_interno.addEventListener('mouseleave', () => {
+	presionado = false;
+})
+
+container_interno.addEventListener('mousemove', (e) => {
 	if (!presionado) return;
-	
 	e.preventDefault();
-	x = e.offsetX;
-	container_interno.style.left = `${x - inicioX}px`;
+	const x = e.pageX - container_interno.offsetLeft;
+	const walk = (x - inicioX) * 3;
+	container_interno.scrollLeft = scrollIz - walk;
 })
 
-function moverCarrousel(cont){
-}
-container_cards.addEventListener('mousedown', () => {
-	
-});
