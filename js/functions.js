@@ -65,6 +65,7 @@ input_disciplina.addEventListener('mousedown', function() {
 	}
 });
 
+
 //Submit ------------------------------------------------------------------------------------------------------------------------------
 function mostrarMensaje(nombre, mail){
 	let msg_nom = document.getElementById('nom_msg');
@@ -94,7 +95,7 @@ var cruz = document.getElementById('cruz_fin');
 cruz.addEventListener('click', () => {
 	resetearForm();
 	body.classList.remove('bloqueado');
-	msg.style.display = 'none';
+	mensaje_final.style.display = 'none';
 });
 
 //Cosas del media query ---------------------------------------------------------------------------------------------------------------
@@ -111,26 +112,21 @@ var presionado = false;
 var inicioX;
 var scrollIz;
 
-container_interno.addEventListener('mousedown', (e) => {
+container_interno.addEventListener('touchstart', (e) => {
 	presionado = true;
-	inicioX = e.pageX - container_interno.offsetLeft;
+	inicioX = e.touches[0].pageX - container_interno.offsetLeft;
 	scrollIz = container_interno.scrollLeft;
 	container_cards.style.userSelect = 'none';
 })
 
-container_interno.addEventListener('mouseup', () => {
+container_interno.addEventListener('touchend', () => {
 	presionado = false;
 })
 
-container_interno.addEventListener('mouseleave', () => {
-	presionado = false;
-})
-
-container_interno.addEventListener('mousemove', (e) => {
+container_interno.addEventListener('touchmove', (e) => {
 	if (!presionado) return;
 	e.preventDefault();
-	const x = e.pageX - container_interno.offsetLeft;
+	const x = e.touches[0].pageX - container_interno.offsetLeft;
 	const walk = (x - inicioX) * 3;
 	container_interno.scrollLeft = scrollIz - walk;
 })
-
